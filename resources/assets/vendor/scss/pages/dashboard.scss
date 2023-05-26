@@ -1,0 +1,218 @@
+
+/* dashboard analytics page css */
+/*------------------------------*/
+
+// Donut Charts in center
+#donut-chart{
+    .apexcharts-canvas{
+        margin : 0 auto;
+    }
+}
+
+// Light Icon color For Box Icons
+.icon-light{
+    color: #b3c0ce;
+}
+// dropdown button color when show on wrapper
+.show > .btn-outline-secondary.dropdown-toggle{
+    color: #ffffff !important;
+}
+// Activity Card Content
+.activity-content{
+    margin-bottom: 2.13rem;
+}
+
+// Sales Card
+.sales-info-content{
+    h1, h2, h3, h4, h5, h6{
+        line-height: 0.7;
+    }
+}
+
+// Greeting Card Widget
+.compute-dashboard-widget-btn {
+    z-index: 9 !important;
+    position: relative;
+    top: -65px;
+    float: right;
+    padding: 2px 2px -1px 2px !important;
+    border-radius: 8px !important;
+
+    i {
+        font-size: 1.6rem;
+    }
+}
+
+// Radial Card Chart
+.widget-state-multi-radial {
+    .tab-content {
+        min-height: 337px;
+    }
+    .nav {
+        .nav-item {
+            .nav-link {
+                padding: 3px;
+                background-color: transparent;
+            }
+        }
+    }
+    .customer-name {
+        font-size: 12px;
+    }
+    button.nav-link {
+        &:focus {
+            outline: none;
+        }
+    }
+
+}
+
+// Conversion Card Chart
+#bar-negative-chart{
+    .apexcharts-series{
+        &[seriesName="RetainedxClients"] {
+            transform: scaleY(1.08);
+        }
+    }
+    svg{
+        height: 290px;
+    }
+}
+
+
+// Todo - Task List
+.widget-todo{
+    .dropdown{
+        .dropdown-toggle{
+            &:after{
+                /* widget todo-task list - dropdown arrow position */
+                left: 0.1rem;
+                color: #b3c0ce;
+            }
+        }
+    }
+    // todo-list-completed
+    .widget-todo-list-wrapper{
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style-type: none;
+        .widget-todo-item{
+            padding: 0.5rem 1.5rem 0.1rem 0.5rem;
+            .widget-todo-title-area{
+                i{
+                    visibility: hidden;
+                    color: #828D99;
+                }
+            }
+            &:hover{
+                background-color: #f2f4f4;
+                .widget-todo-title-area{
+                    i{
+                        visibility: visible;
+                    }
+                }
+            }
+            &.completed {
+                .widget-todo-title{
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}
+
+// timeline wrapper
+.widget-timeline{
+    .timeline-text{
+        color: #828D99;
+        font-size: 13px;
+    }
+    .timeline-content{
+        color: #304156;
+        font-size: 13px;
+        font-weight: 500;
+        background-color: transparent !important;
+        padding-left: 0 !important;
+    }
+    .timeline-time{
+        font-size: 0.8rem !important;
+    }
+}
+
+// Overview of operating chart
+.statistic-left {
+    flex: 1 1 300px;
+    padding: 0 15px;
+}
+.statistic-right {
+    flex: 1 1 250px;
+    padding: 0 15px;
+    .title {
+        text-align: center;
+    }
+    .colored-font {
+        color: #727E8C;
+        a {
+            color: #727E8C;
+        }
+    }
+}
+.custom-dashboard-tabs {
+    .nav-item {
+        a {
+            color: #727d8b;
+        }
+        a.active {
+            color: #0b2849;
+        }
+    }
+}
+
+// Font sizes
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.text-left {
+    text-align: left;
+}
+
+// todo card responsive in specific screen
+@media screen and (max-width:600px){
+    .widget-todo-list-wrapper{
+        .widget-todo-title-wrapper{
+            flex-direction: column;
+            .widget-todo-title-area{
+                margin-right: auto;
+            }
+            .widget-todo-item-action{
+                margin-left: auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1280px) and (min-width:960px){
+    .activity-card,
+    .profit-report-card,
+    .sales-card,
+    .growth-card{
+        flex: 0 0 50%;
+        min-width: 50%;
+    }
+}
+@media screen and (max-width:1320px) and (min-width:1200px){
+    .dashboard-referral-impression{
+        .donut-chart-wrapper{
+            ul{
+                li{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+    #primary-line-chart,
+    #warning-line-chart{
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+// Include// 	Item Name: Frest HTML Admin Template
+// 	Version: 1.0
+// 	Author: PIXINVENT
+// 	Author URL: http://www.themeforest.net/user/pixinvent
+// *******************************************************************************
+
+@import '../_bootstrap-extended/include';
+
+//Mixins
+@import './_mixins'; // Components mixins
+
+//Components variables
+@import '../_custom-variables/components'; // Components variable (for customization purpose)
+@import 'variables'; // Components variable

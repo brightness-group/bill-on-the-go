@@ -1,0 +1,28 @@
+{
+  "menu": [
+    {
+      "navheader": "tenant-name"
+    },
+    {
+      "url": "customers/list",
+      "name": "Customers",
+      "i18n": "Customers",
+      "icon": "location-alt"
+    },
+    {
+      "url": "connections",
+      "name": "Activity Overview",
+      "i18n": "Activity Overview",
+      "icon": "cloud-download"
+    },
+    {
+      "navheader": "Others"
+    },
+    {
+      "url": "logout",
+      "name": "Logout",
+      "i18n": "Logout",
+      "icon": "morph-powerswitch"
+    }
+  ]
+}

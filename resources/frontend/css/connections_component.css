@@ -1,0 +1,36 @@
+.table-connections tbody tr {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.table-connections tbody tr td {
+    padding: 0.2rem 0.8rem;
+}
+
+.table-connections tbody tr td.actions-column button {
+    padding: 0 0.6rem;
+}
+
+#table-connections-header thead tr th.actions-column button {
+    padding: 0 0.6rem;
+}
+
+.modal .table-modal-overlaps thead th {
+    padding: 1.5rem 2rem;
+    font-size: 10px;
+    text-align: center;
+}
+
+.modal .table-modal-overlaps thead th span {
+    letter-spacing: 1px;
+}
+
+.modal .table-modal-overlaps tbody tr {
+    font-size: 10px;
+}
+
+.modal .table-modal-overlaps tbody td {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    text-align: center;
+}

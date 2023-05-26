@@ -1,0 +1,52 @@
+{
+  "menu": [
+    {
+      "menuHeader": "tenant-name"
+    },
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "icon": "bxs-dashboard",
+       "route_name": "dashboard"
+    },
+    {
+      "url": "customers/list",
+      "name": "Customers",
+      "i18n": "Customers",
+      "icon": "bxs-user",
+      "route_name": "customers.list"
+    },
+    {
+      "url": "connections",
+      "name": "Activity Overview",
+      "i18n": "Activity Overview",
+      "icon": "bxs-component",
+      "route_name": "customer.connections"
+    },
+    {
+      "url": "tariffs?#account-vertical-tariff",
+      "name": "Tariffs",
+      "i18n": "Tariffs",
+      "icon": "bxs-coin-stack",
+      "route_name": "pages.tariffs"
+    },
+    {
+      "menuHeader": "Others"
+    },
+    {
+      "url": "show-account-settings",
+      "name": "My Company",
+      "i18n": "My Company",
+      "icon": "bxs-home",
+      "route_name": "account.settings"
+    },
+    {
+      "url": "logout",
+      "name": "Logout",
+      "i18n": "Logout",
+      "icon": "bx-power-off",
+      "route_name": "logout"
+    }
+  ]
+}

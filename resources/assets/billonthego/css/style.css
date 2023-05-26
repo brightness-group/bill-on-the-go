@@ -1,0 +1,169 @@
+[x-cloak] {
+    display: none;
+}
+.text-right {
+    text-align: right;
+}
+.bullet {
+    border-radius: 50%;
+    display: inline-block;
+}
+.bullet.bullet-sm {
+    width: 10px;
+    height: 10px;
+}
+.page-item {
+    border-radius: 4px;
+}
+table.custom-sorting thead th {
+    position: relative;
+}
+.bottom-row {
+    position: absolute;
+    bottom: 4px;
+    right: 5px;
+}
+.top-row {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+}
+.bottom-row i, .top-row i {
+    opacity: 0.5;
+}
+.bottom-row i.active, .top-row i.active {
+    opacity: 1;
+}
+.container {
+    max-width: 100% !important;
+}
+.step a {
+    color: unset;
+}
+.bs-stepper.vertical .bs-stepper-header .step .step-trigger {
+    padding: 0;
+}
+.bs-stepper .step.active span.bs-stepper-circle {
+    background-color: #495563 !important;
+}
+.bs-stepper .step.active span.bs-stepper-label {
+    color: #495563 !important;
+}
+.modal .close {
+    background-color: #eeeff1 !important;
+    padding: 0.5625rem 0.5625rem;
+    margin: 0 0 0 auto;
+    z-index: 1;
+}
+.modal-header .close {
+    padding: 0.6875rem 0.75rem;
+    margin: -0.6875rem -0.75rem -0.6875rem auto;
+}
+.close {
+    box-sizing: content-box;
+    width: 0.8em;
+    height: 0.8em;
+    padding: 0.25em 0.25em;
+    color: #a8b1bb;
+    background: transparent url("data:image/svg+xml,%3Csvg width='150px' height='151px' viewBox='0 0 150 151' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cdefs%3E%3Cpolygon id='path-1' points='131.251657 0 74.9933705 56.25 18.7483426 0 0 18.75 56.2450278 75 0 131.25 18.7483426 150 74.9933705 93.75 131.251657 150 150 131.25 93.7549722 75 150 18.75'%3E%3C/polygon%3E%3C/defs%3E%3Cg id='🎨-%5BSetup%5D:-Colors-&amp;-Shadows' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='Artboard' transform='translate%28-225.000000, -250.000000%29'%3E%3Cg id='Icon-Color' transform='translate%28225.000000, 250.500000%29'%3E%3Cuse fill='%23a8b1bb' xlink:href='%23path-1'%3E%3C/use%3E%3Cuse fill-opacity='0.5' fill='%23a8b1bb' xlink:href='%23path-1'%3E%3C/use%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E") center/0.8em auto no-repeat;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0.25rem;
+    opacity: 0.95;
+}
+.modal .close span {
+    display: none !important;
+}
+select.form-control {
+    -webkit-appearance: menulist;
+}
+
+ol.padding li {
+    padding: 5px;
+}
+
+.f-18 {
+    font-size: 18px;
+}
+
+.mw-50 {
+    width: 50px;
+}
+
+#bar-negative-chart-inner .apexcharts-tooltip-text-y-label {
+    min-width: 100px !important;
+    display: inline-block;
+}
+
+#statistics-multi-radial-chart .apexcharts-text {
+    font-weight: lighter;
+}
+
+.customer-infobox{
+    position: relative;
+    min-height: 155px;
+}
+
+.tariff-infobox.right{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 0.25rem;
+}
+
+
+.outer-tarifs{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-height: 80px;
+    float: right
+}
+
+.dark-style .table-danger i.bx-dots-vertical-rounded {
+    color: #000;
+}
+
+.tariff-infobox.right p{
+   margin-bottom: 0px;
+}
+
+.top-minus{
+    top: -117px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.overlaps-user .tariff-conflicts-badge {
+    display: block !important;
+    color: #677788 !important;
+}
+
+.tariff-conflicts-badge {
+    display: none !important;
+}
+
+/* responsive */
+@media (max-width: 1450px) {
+    .outer-tarifs{
+        position: relative;
+        top: 0px;
+    }
+    .top-minus{
+        top: -45px;
+    }
+}
+@media (max-width: 767px) {
+    .outer-tarifs{
+        margin-top: 15px;
+    }
+    
+    .top-minus{
+        top: 0px;
+    }
+    .btn {
+        margin-bottom: 15px;
+    }
+
+}

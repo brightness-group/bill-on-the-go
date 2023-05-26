@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "menuHeader": "My Organization"
+    },
+    {
+      "url": "customers/list",
+      "name": "Customers",
+      "i18n": "Customers",
+      "icon": "bxs-user",
+      "slug": ["customers.list", "customers.show"]
+    },
+    {
+      "url": "connections",
+      "name": "Activity Overview",
+      "i18n": "Activity Overview",
+      "icon": "bxs-component",
+      "slug": "customer.connections"
+    },
+    {
+      "menuHeader": "Others"
+    },
+    {
+      "url": "logout",
+      "name": "Logout",
+      "i18n": "Logout",
+      "icon": "bx-power-off"
+    }
+  ]
+}

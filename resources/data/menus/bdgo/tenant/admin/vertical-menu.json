@@ -1,0 +1,109 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard",
+      "name": "Dashboard",
+      "icon": "bxs-dashboard",
+      "slug": "dashboard"
+    },
+    {
+      "url": "customers/list",
+      "name": "Customers",
+      "i18n": "Customers",
+      "icon": "bxs-user",
+      "slug": ["customers.list", "customers.show"]
+    },
+    {
+      "menuHeader": "My Company"
+    },
+    {
+      "url": "show-account-settings",
+      "name": "Organisation",
+      "icon": "bx-buildings",
+      "slug": "account.settings"
+    },
+    {
+      "url": "#",
+      "name": "Task",
+      "icon": "bx-task",
+      "slug": "task"
+    },
+    {
+      "url": "#",
+      "name": "Audit",
+      "icon": "bx-list-check",
+      "slug": "audit"
+    },
+    {
+      "url": "#",
+      "name": "Training",
+      "icon": "bx-receipt",
+      "slug": "training"
+    },
+    {
+      "url": "#",
+      "name": "Online Meeting",
+      "icon": "bx-video",
+      "slug": "online-meeting"
+    },
+    {
+      "menuHeader": "Documentation"
+    },
+    {
+      "url": "processing-activity",
+      "name": "Processing Activities",
+      "icon": "bx-detail",
+      "slug": ["processing-activity", "processing-activity-crud"]
+    },
+    {
+      "url": "#",
+      "name": "TOM",
+      "icon": "bx-lock-alt",
+      "slug": "tom"
+    },
+    {
+      "url": "data-processing-agreement",
+      "name": "DPA",
+      "icon": "bx-detail",
+      "slug": "data-processing-agreement"
+    },
+    {
+      "url": "documents",
+      "name": "Documents",
+      "icon": "bxs-file-pdf",
+      "slug": "document"
+    },
+    {
+      "url": "page-account-settings",
+      "name": "System",
+      "icon": "bx-cog",
+      "slug": "page-account-settings"
+    },
+    {
+      "url": "#",
+      "name": "Report",
+      "icon": "bxs-report",
+      "slug": "report"
+    },
+    {
+      "menuHeader": "Incident"
+    },
+    {
+      "url": "#",
+      "name": "Data Breach",
+      "icon": "bx-detail",
+      "slug": "data-breach"
+    },
+    {
+      "url": "data-subject-request",
+      "name": "Affected Request",
+      "icon": "bx-lock-alt",
+      "slug": ["data-subject-request", "data-subject-request-crud"]
+    },
+    {
+      "menuHeader": "Externer Link",
+      "url": "externer-link"
+    }
+  ]
+}
+

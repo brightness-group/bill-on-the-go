@@ -1,0 +1,93 @@
+.table-border-line-connection thead th {
+    padding: 1.5rem 2rem;
+    font-size: 10px;
+    text-align: center;
+}
+
+.table-border-line-connection thead th span {
+    letter-spacing: 1px;
+}
+
+.table-border-line-connection tbody tr {
+    font-size: 10px;
+}
+
+.table-border-line-connection tbody td {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    text-align: center;
+}
+
+.table-diff-in-connection thead th {
+    padding: 1.5rem 2rem;
+    font-size: 10px;
+    text-align: justify;
+}
+
+.table-diff-in-connection thead th span {
+    letter-spacing: 1px;
+}
+
+.table-diff-in-connection tbody tr {
+    font-size: 10px;
+}
+
+.table-diff-in-connection tbody td {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    text-align: justify;
+    font-weight: bold;
+    color: #475F7B;
+    font-family: Rubik, Helvetica, Arial, serif;
+}
+
+/**
+*  Non Night Tariff
+**/
+.table-non-night-tariffs thead th {
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    font-size: 10px;
+    text-align: center;
+}
+
+.table-non-night-tariffs thead th span {
+      letter-spacing: 1px;
+}
+
+.table-non-night-tariffs tbody tr {
+      font-size: 10px;
+}
+
+.table-non-night-tariffs tbody td {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      text-align: center;
+}
+
+
+/**
+*  Night Tariff
+**/
+.table-night-tariffs thead th {
+    padding: 0.5rem 2rem 1.5rem 2rem;
+    font-size: 10px;
+    text-align: center;
+}
+
+.table-night-tariffs thead th span {
+    letter-spacing: 1px;
+}
+
+.table-night-tariffs tbody tr {
+      font-size: 10px;
+}
+
+.table-night-tariffs tbody td {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      text-align: center;
+}
+
+.tariffs_tables .col {
+    padding: 15px;
+}

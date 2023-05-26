@@ -1,0 +1,8 @@
+.clickble tr {
+    cursor: pointer;
+}
+.form-check-input:checked {
+    background-color: #495563 !important;
+    border-color: #495563 !important;
+}
+

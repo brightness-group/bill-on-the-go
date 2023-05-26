@@ -1,0 +1,28 @@
+.table-active tr {
+    font-size: 12px;
+}
+.table-active thead th {
+    text-align: center;
+    padding: 1.15rem 1rem;
+}
+.table-active tbody td {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.table-archieved tr {
+    font-size: 12px;
+}
+.table-archieved thead th {
+    text-align: center;
+    padding: 1.15rem 1rem;
+}
+.table-archieved tbody td {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.collapse-div-for-tariff {
+    font-size: 12px;
+}
+.custom-top-menu{
+    background: #000;
+}

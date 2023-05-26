@@ -1,0 +1,14 @@
+.table-contacts-component tr {
+    font-size: 12px;
+}
+.table-contacts-component thead th {
+    text-align: center;
+    padding: 1.15rem 1rem;
+}
+.table-contacts-component tbody td {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.collapse-div-for-contact {
+    font-size: 12px;
+}

@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "menuHeader": "Subscriptions"
+    },
+    {
+      "url": "companies/list",
+      "name": "Companies",
+      "i18n": "Companies",
+      "icon": "bx-list-ul",
+      "route_name": "list.companies"
+    },
+    {
+      "menuHeader": "System"
+    },
+    {
+      "url": "users/list",
+      "name": "Users",
+      "i18n": "Users",
+      "icon": "bx-user",
+      "route_name": "users.system"
+    },
+    {
+      "url": "subdomains/list",
+      "name": "Subdomains",
+      "i18n": "Subdomains",
+      "icon": "bx-globe",
+      "route_name": "subdomain.system"
+    }
+  ]}

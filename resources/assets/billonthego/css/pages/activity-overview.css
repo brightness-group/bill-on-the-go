@@ -1,0 +1,153 @@
+.custom-action-all-th{
+    position: relative;
+}
+.custom-action-all button{
+    padding: 0 0.6rem;
+}
+.custom-action-all{
+    position: absolute;
+    left: 39px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 97%;
+}
+.dropleft .dropdown-menu::before {
+    content: "";
+    top: 1.285rem;
+    right: auto;
+    left: 72px;
+    transform: rotate(45deg) translate(-36px);
+    border-top: 1px solid #DFE3E7;
+    border-left: 1px solid #DFE3E7;
+}
+.show > .dropdown-menu{
+    transform: translate3d(-37px, 39px, 0px) !important;
+}
+.custom-action-all .bx-dots-horizontal-rounded{
+    font-size: 20px;
+}
+html .content.app-content {
+    overflow: initial;
+}
+.checkbox-lg label::before, .checkbox-lg label::after {
+    width: 18px;
+    height: 18px;
+}
+.modal {
+    overflow: auto !important;
+}
+.picker {
+    font-size: 10px;
+    width: 200px;
+}
+.flatpickr-calendar {
+    width: 220px;
+}
+.flatpickr-calendar,.flatpickr-weekday,.numInputWrapper  {
+    font-size: 10px;
+}
+.flatpickr-innerContainer,.flatpickr-rContainer,.dayContainer {
+    width: 220px;
+}
+.dayContainer {
+    min-width: 220px;
+}
+.flatpickr-day {
+    width: fit-content;
+    max-width: 30px;
+    height: 32px;
+    line-height: 36px;
+    padding: 0 .1em;
+}
+.checkbox input:checked ~ label:after {
+    border-color: #495057;
+}
+
+.card-header {
+    position: sticky;
+    top: 68px;
+    width: 100% !important;
+    z-index: 2;
+}
+.table-connections thead th {
+    border: 0;
+}
+#screen {
+    font-family: Calibri,Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+#screen:focus {
+    background-color: #c8f5de;
+}
+.print-view-table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+.print-view-table thead  {
+    text-align: left;
+    display: table-header-group;
+    vertical-align: middle;
+}
+.print-view-table th  {
+    border-top: 1px solid #DFE3E7;
+    border-bottom: 1px solid #DFE3E7;
+    padding: 1rem 0.6rem;
+    font-family: "Rubik", Helvetica, Arial, serif;
+    font-weight: bold;
+    color: #475F7B;
+    font-size:10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.print-view-table td  {
+    border-top: 1px solid #DFE3E7;
+    border-bottom: 1px solid #DFE3E7;
+    padding: 6px;
+    font-family: "Rubik", Helvetica, Arial, serif;
+    color: #475F7B;
+    font-size: 10px;
+    text-align: center;
+}
+.table-charged-identifier {
+    text-transform: uppercase;
+}
+
+.d-none {
+    display: none;
+}
+
+[x-cloak] { display: none !important; }
+
+.customer-connections tr:first-child td {
+    border-top: 1px solid #DFE3E7;
+}
+.existing-table{
+    position: relative;
+}
+.existing-table thead th{
+    position: sticky;
+    top: 252px;
+    z-index: 1;
+    text-shadow: 1px 1px 2px #7da0b1;
+    background-color: #fff;
+}
+
+.print-view.enabled {
+    background-color: #B0BED9;
+    color: white !important;
+}
+.input-group-text{
+    padding: 0.469rem 0.335rem;
+}
+
+/* responsive */
+@media (min-width: 1756px) {
+    .existing-table thead th {
+        top: 221px;
+    }
+}

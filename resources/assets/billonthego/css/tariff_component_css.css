@@ -1,0 +1,45 @@
+.table-active tr {
+    font-size: 12px;
+}
+.table-active thead th {
+    text-align: center;
+    padding: 1.15rem 1rem;
+}
+.table-active tbody td {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.table-archieved tr {
+    font-size: 12px;
+}
+.table-archieved thead th {
+    text-align: center;
+    padding: 1.15rem 1rem;
+}
+.table-archieved tbody td {
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.collapse-div-for-tariff {
+    font-size: 12px;
+}
+.flatpickr-input:disabled::placeholder {
+    color: rgb(255, 255, 255);
+}
+
+.flatpickr-prev-month, .flatpickr-next-month{
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px;
+}
+.customer-infobox {
+    /* background: red; */
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: left;
+}
+.customer-infobox p {
+    margin-bottom: 0px;
+}

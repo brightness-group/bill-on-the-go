@@ -1,0 +1,78 @@
+.picker {
+    font-size: 10px;
+    width: 200px;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    padding: 0.2rem 0.6rem;
+}
+
+.select2-container--default .select2-selection--multiple {
+    background-color: white;
+    border: 1px solid #b0bed978;
+    border-radius: 4px;
+    cursor: text;
+}
+
+.custom-top-menu {
+    border-bottom: 1px solid #d4d8dd;
+    padding-bottom: 20px;
+}
+
+.custom-top-menu .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-weight: 300;
+    margin-right: 15px;
+}
+
+.custom-top-menu .btn:hover,
+.custom-top-menu .btn.btn-dark {
+    color: #5a8dee;
+    background: none;
+    border: none;
+    box-shadow: none;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.custom-top-menu .btn .feather {
+    margin-bottom: 10px;
+}
+
+.custom-top-menu .btn:hover,
+.custom-top-menu .btn.btn-dark {
+    color: #5a8dee;
+}
+
+.custom-top-menu .btn .bx {
+    font-size: 45px;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+    .responsive-icons {
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .custom-top-menu .btn {
+        margin-right: 0px;
+        width: 115px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .custom-top-menu .btn {
+        width: 100px;
+    }
+
+
+}

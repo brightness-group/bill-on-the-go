@@ -1,0 +1,16 @@
+ .modal-body-edit-connection {
+    padding-top: 2px;
+}
+ .modal-header-edit-connection {
+     padding-top: 12px;
+     padding-bottom: 12px;
+ }
+.connection-edit-form {
+    font-size: 12px;
+}
+.connection-edit-form .content-notes {
+    padding-top: 2rem;
+}
+.connection-edit-form .content-tariff-invoice {
+    padding-top: 5px;
+}

@@ -1,0 +1,19 @@
+.table-file-uploaded-connections thead th {
+    font-size: 10px;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.table-file-uploaded-connections tbody tr {
+    font-size: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.table-file-uploaded-connections tbody tr td {
+    padding: 0.2rem 0.8rem;
+}
+
+.table-file-uploaded-connections tbody tr td.actions-column button {
+    padding: 0 0.6rem;
+}
